@@ -1,9 +1,10 @@
 import { createApp } from 'vue'
 import ElIcon from '@af-ui/components/icon'
+import ElButton from '@af-ui/components/button'
 import '@af-ui/theme-chalk/src/index.scss'
 import App from './App.vue'
 // 组件库
-const components = [ElIcon]
+const components = [ElIcon, ElButton]
 // 是否已安装标识
 const INSTALLED_KEY = Symbol('INSTALLED_KEY')
 // 组件库插件
