@@ -5,8 +5,8 @@
 </template>
 <script lang="ts" setup>
 import { provide, reactive, toRef } from 'vue'
-import { useNamespace } from '@cobyte-ui/hooks'
-import { buttonGroupContextKey } from '@cobyte-ui/tokens'
+import { useNamespace } from '@af-ui/hooks'
+import { buttonGroupContextKey } from '@af-ui/tokens'
 import { buttonGroupProps } from './button-group'
 
 defineOptions({

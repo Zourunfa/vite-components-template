@@ -20,11 +20,13 @@
     "@af-ui/components": "workspace:^",
     "@af-ui/theme-chalk": "workspace:^",
     "@af-ui/utils": "workspace:^",
+    "@element-plus/icons-vue": "^2.1.0",
     "eslint-config-commonlint": "workspace:^",
     "eslint-plugin-aflint": "workspace:^"
   },
   "devDependencies": {
     "@af-ui/hooks": "workspace:^",
+    "@af-ui/tokens": "workspace:^",
     "@types/node": "^20.4.9",
     "@vue/shared": "^3.3.4",
     "@vueuse/core": "^9.5.0",

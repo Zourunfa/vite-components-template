@@ -22,8 +22,8 @@
 </template>
 <script lang="ts" setup>
 import { computed, inject, ref } from 'vue'
-import { useNamespace } from '@cobyte-ui/hooks'
-import { buttonGroupContextKey } from '@cobyte-ui/tokens'
+import { useNamespace } from '@af-ui/hooks'
+import { buttonGroupContextKey } from '@af-ui/tokens'
 import { buttonEmits, buttonProps } from './button'
 // 定义组件名称
 defineOptions({

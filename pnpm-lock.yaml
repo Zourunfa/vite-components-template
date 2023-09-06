@@ -13,6 +13,9 @@ importers:
       '@af-ui/utils':
         specifier: workspace:^
         version: link:packages/utils
+      '@element-plus/icons-vue':
+        specifier: ^2.1.0
+        version: registry.npmmirror.com/@element-plus/icons-vue@2.1.0(vue@3.3.4)
       eslint-config-commonlint:
         specifier: workspace:^
         version: link:packages/eslint-config-commonlint
@@ -23,6 +26,9 @@ importers:
       '@af-ui/hooks':
         specifier: workspace:^
         version: link:packages/hooks
+      '@af-ui/tokens':
+        specifier: workspace:^
+        version: link:packages/tokens
       '@types/node':
         specifier: ^20.4.9
         version: registry.npmmirror.com/@types/node@20.4.9
@@ -89,6 +95,12 @@ importers:
   packages/hooks: {}
 
   packages/theme-chalk: {}
+
+  packages/tokens:
+    dependencies:
+      vue:
+        specifier: ^3.3.4
+        version: registry.npmmirror.com/vue@3.3.4
 
   packages/utils: {}
 
@@ -186,6 +198,17 @@ packages:
       '@babel/helper-string-parser': registry.npmmirror.com/@babel/helper-string-parser@7.22.5
       '@babel/helper-validator-identifier': registry.npmmirror.com/@babel/helper-validator-identifier@7.22.5
       to-fast-properties: registry.npmmirror.com/to-fast-properties@2.0.0
+
+  registry.npmmirror.com/@element-plus/icons-vue@2.1.0(vue@3.3.4):
+    resolution: {integrity: sha512-PSBn3elNoanENc1vnCfh+3WA9fimRC7n+fWkf3rE5jvv+aBohNHABC/KAR5KWPecxWxDTVT1ERpRbOMRcOV/vA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@element-plus/icons-vue/-/icons-vue-2.1.0.tgz}
+    id: registry.npmmirror.com/@element-plus/icons-vue/2.1.0
+    name: '@element-plus/icons-vue'
+    version: 2.1.0
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: registry.npmmirror.com/vue@3.3.4
+    dev: false
 
   registry.npmmirror.com/@esbuild/android-arm64@0.18.20:
     resolution: {integrity: sha512-Nz4rJcchGDtENV0eMKUNa6L12zz2zBDXuhj/Vjh18zGqB44Bi7MBMSXjgunJgjRhCmKOjnPuZp4Mb6OKqtMHLQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@esbuild/android-arm64/-/android-arm64-0.18.20.tgz}
