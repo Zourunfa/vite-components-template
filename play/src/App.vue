@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <af-icon color="green">Icon</af-icon> -->
-    <el-button>你好</el-button>
+    <af-icon color="green">Icon</af-icon>
+    <el-button type="success">你好</el-button>
   </div>
 </template>
 <script setup lang="ts">
